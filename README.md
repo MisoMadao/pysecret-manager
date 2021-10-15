@@ -6,6 +6,10 @@ Very simple python module to manage secrets
 
 [criptography](https://cryptography.io/en/latest/)
 
+## install module
+
+    pip setup.py install
+
 ## usage
 
 ### as module

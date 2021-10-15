@@ -2,7 +2,9 @@ import logging
 import os
 import unittest
 from unittest import mock
-
+# TODO mock does not work with getpass when importing the module
+#  To test need to place this file in the module folder
+#  Need to find a solution to this
 from secret_manager import SecretManager
 
 logging.getLogger().setLevel(logging.CRITICAL)
